@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "dexcontrol",
+	"version": "0.2.0",
+	"name": "DexControl",
+	"description": "Этот мод упрощает выдачу наказаний на ДексЛэнде, и был создан для своих целей мною, SleeepyZzZ",
+	"authors": [
+		"SleeepyZzZ"
+	],
+	"contact": {
+		"homepage": "TG @goonnen"
+	},
+	"license": "MIT",
+	"icon": "assets/dexcontrol/icon.jpg",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.g2806.dexcontrol.DexControlClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
